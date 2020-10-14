@@ -11,8 +11,6 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-
     <title>Nicholas Shupinski</title>
     <style>
         html,
@@ -83,11 +81,18 @@
         
         .card {
             background-color: lightgrey;
-            margin: 60px;
         }
             .card-image {
                 padding: 30px;
             }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #projects {
+            border-style: solid;
+        }
     </style>
 </head>
 
@@ -186,40 +191,37 @@
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Temple College of Science &Aacute; Technology Transfer Course Evaluation Tool</h5>
         </div>
         <div class="row w-100 mb-4">
             <p class="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero.
+                Currently, in my senior capstone class at Temple University I am working with the CIS (College of Science and Technology) advising
+                department with a group of 5 other students to help develop a tool for the department to use that will help them keep track of, and 
+                manage courses that new Temple students are attempting to tranfer from other universities. We are currently still on the planning stages
+                of this tool as part of the capstone 1 course curriculum but will hopefully be able to start development in the second part of the course. 
+                It has been a great learning experience so far being able to meet with our clients (a number of Temple advisors) and working through the planning process.
             </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Mobile Application Hackathon Contest</h5>
         </div>
         <div class="row w-100 mb-4">
             <p class="text-justify">
-                Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta.
+                In September of 2020 I signed up for a mobile application hackathon event through a company called V.One. I designed a financial tracking mobile 
+                app on my own to be submitted to the competition. Though I unfortunately didn't win, I had a great time trying out a new developing tool and 
+                got a great resonse of votes for my app in the process. I loved working on a project outside of school and feeling proud of the product I created,
+                knowing that it was my product I created on my own. I look forward to trying out more opportunities like this in the future.
             </p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Video Game Review Website Project</h5>
         </div>
         <div class="row w-100">
             <p class="text-justify">
-                Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at.
+                During one of my Temple courses, Client-Side Scripting for the Web, myself and my partner developed a fully functioning video game review website 
+                that utilized much of the material we learned in the class such as HTML, CSS, Javascript, C#, and database management. We did very well on the assignment and
+                I walked away with a project that I felt very proud of and could take with me as an excellent example to reference for my remaining semesters at school and for 
+                any independent projects like it that I would like to persue. 
             </p>
         </div>
         <div class="row mt-5 next">
@@ -261,7 +263,7 @@
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#contact" class="col">
+            <a href="#blender" class="col">
                 <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                    title="Contact"></i>
             </a>
@@ -270,121 +272,112 @@
 
     <!--Blender Section-->
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="blender">
         <div class="container">
             <h1 class="display-4 is-centered" style="color:#EA7600">Blender</h1>
-            <p class="lead" style="font-family: 'Times New Roman', Times, serif">Fun fact about me: Blender is one of my favorite hobbies where I am learning to 3D render photorealistic images.</p>
+            <p class="lead">Fun fact about me: Blender is one of my favorite hobbies where I am learning to 3D render photorealistic images.</p>
         </div>
     </div>
 
-    <div class="columns is-centered">
-        <div class="column is-half">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/ChessRemastered2.png" alt="Chess Board">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        This chess board is a remake of one of my earliest renders. About two years after making the original I decided to make it look better since my
-                        skills in 3D modeling had improved. Though not my best work ever, this chess board was a lot of fun to make and design and stands as one of my favorite projects.
-                        <br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/ChessRemastered2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                            This chess board is a remake of one of my earliest renders. About two years after making the original I decided to make it look better since my
+                            skills in 3D modeling had improved. Though not my best work ever, this chess board was a lot of fun to make and design and stands as one of my favorite projects.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/mom's house 1.png" alt="Kitchen" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        The kitchen depicted in this render was actually designed by my mom, as well as the rest of the house that isn't visible in the picture. Her dream of designing
-                        her own house gave me the idea to show her, as best I could, what it could look like in real life. The focus of this project was attention to detail and
-                        though it isn't yet finished, I am very proud of what I've done.
-                        <br>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/mom's house 1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                            The kitchen depicted in this render was actually designed by my mom, as well as the rest of the house that isn't visible in the picture. Her dream of designing
+                            her own house gave me the idea to show her, as best I could, what it could look like in real life. The focus of this project was attention to detail and
+                            though it isn't yet finished, I am very proud of what I've done.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="column is-half">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/519abcForever.png" alt="Dorm Room" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        This render is one that I am very proud of because of the time that I put into it. This is my first college dorm room modeled almost to scale with items from
-                        both myself and my roomate in it. I ran into a lot of problems with this render because this was meant to test my skills and to force myself to grow as a 3D
-                        artist. I learned a lot and came out with possibly my favorite project.
-                        <br>
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/519abcForever.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                            This render is one that I am very proud of because of the time that I put into it. This is my first college dorm room modeled almost to scale with items from
+                            both myself and my roomate in it. I ran into a lot of problems with this render because this was meant to test my skills and to force myself to grow as a 3D
+                            artist. I learned a lot and came out with possibly my favorite project.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/TheImageOfSpace.png" alt="Dorm Room" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        This is one of my more current finished projects and the result of an attempted style change. I typically work on photorealism but for this render I tried
-                        an abstract piece. This project went surprisingly smoothly and took very little time. Despite that, I am very proud of my first attempt at trying something new and
-                        because of it will most likely continue with this type of style.
-                        <br>
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="images/TheImageOfSpace.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                            This is one of my more current finished projects and the result of an attempted style change. I typically work on photorealism but for this render I tried
+                            an abstract piece. This project went surprisingly smoothly and took very little time. Despite that, I am very proud of my first attempt at trying something new and
+                            because of it will most likely continue with this type of style.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
-        <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
-        </div>
-        <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
-        </div>
-        <div class="row my-4 contacticon">
-            <a href="mailto:nshupinski@gmail.com.com" class="col mx-3">
-                <i class="fas fa-envelope-square"
-                   data-toggle="tooltip" data-placement="top" title="Email"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/nick-shupinski/" class="col mx-3">
-                <i class="fab fa-linkedin"
-                   data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
-            </a>
-            <a href="https://github.com/nshupinski" class="col mx-3">
-                <i class="fab fa-github-square"
-                   data-toggle="tooltip" data-placement="top" title="Github"></i>
-            </a>
 
+        <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+            <div class="row mx-auto">
+                <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            </div>
+            <div class="row mx-auto">
+                <h5 class="display-5 mx-auto faded text-center">Please do!</h5>
+            </div>
+            <div class="row my-4 contacticon">
+                <a href="mailto:nshupinski@gmail.com.com" class="col mx-3">
+                    <i class="fas fa-envelope-square"
+                       data-toggle="tooltip" data-placement="top" title="Email"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nick-shupinski/" class="col mx-3">
+                    <i class="fab fa-linkedin"
+                       data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+                </a>
+                <a href="https://github.com/nshupinski" class="col mx-3">
+                    <i class="fab fa-github-square"
+                       data-toggle="tooltip" data-placement="top" title="Github"></i>
+                </a>
+
+            </div>
+            <div class="row mt-5">
+                <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+            </div>
         </div>
-        <div class="row mt-5">
-            <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
-        </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 </body>
 
 </html>
